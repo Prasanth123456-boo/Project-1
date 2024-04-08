@@ -75,6 +75,9 @@ header {
     border-radius: 150px 100px 0 0;
     transform: rotate(-2deg) translatex(10px);
 }
+.rolorp{
+    color: var(--white);
+}
 .card_main {
     width: calc(100% - 150px);
     background-color: var(--bit_gray);
@@ -740,7 +743,15 @@ header {
     .ser-main{
         padding-bottom: 130px;
     }
-
+    .ser-card > img {
+    
+        aspect-ratio: 0;
+        
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        width: 28px !important;
+    }
+   
 }
 
 @media (max-width:380px) {
