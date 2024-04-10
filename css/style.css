@@ -446,9 +446,11 @@ header {
     flex-direction: column;
     padding: 20px;
 }
-.ser-card > h1{
+.ser-card > h1 {
     color: var(--white);
-    font-size: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 2px;
 }
 .custom-swiper-button {
     /* position: absolute; */
@@ -750,6 +752,18 @@ header {
     }
     .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
         width: 28px !important;
+    }
+    .bg-service > h1 {
+        font-size: 30px;
+       transition: 1s ease;
+    }
+    .banner-text h2 {
+        font-size: 33px !important;
+        transition: 1s ease;
+    }
+    .banner-text h3 {
+        font-size: 21px;
+        transition: 1s ease;
     }
    
 }
