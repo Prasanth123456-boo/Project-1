@@ -276,7 +276,7 @@ header {
     font-style: italic;
     line-height: 25px;
     display: -webkit-box;
-    -webkit-line-clamp: 9;
+    -webkit-line-clamp: 15;
     /* Number of lines to display */
     -webkit-box-orient: vertical;
     overflow: hidden;
