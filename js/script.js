@@ -1,5 +1,6 @@
 $(".menu").on('click', function () {
-
+  console.log("clicked");
+  
   var selector = $(".body")
 
   if (selector.hasClass('open')) {

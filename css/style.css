@@ -493,6 +493,44 @@ header {
 }
 /* service ends*/
 
+.team-img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.team-card {
+    width: 10rem;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.team-h2{
+    font-size: 20px;
+}
+.team-h4{
+    color: var(--blue);
+    font-size: 15px;
+}
+.team-main{
+    width: calc(100% - 170px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 20px;
+}
+.team-main-h1 {
+    font-size: 41px;
+    width: 40rem;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 45px;
+    font-weight: 400;
+}
 @media screen and (max-width: 1250px) {
     .banner-text {
         width: 40%;
@@ -605,6 +643,18 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+    .team-main-h1 {
+        font-size: 31px;
+        width: 30rem;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 45px;
+        font-weight: 400;
+    }
+    .team-main{
+        flex-direction: column;
+       
+    }
     .menu {
         display: flex;
         z-index: 999;
@@ -618,7 +668,7 @@ header {
         height: 100vh;
         background: white;
         z-index: 99;
-        display: none;
+        display: none !important;
         transition: 1s ease;
     }
 
