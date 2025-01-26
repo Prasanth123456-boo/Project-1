@@ -531,6 +531,7 @@ header {
     line-height: 45px;
     font-weight: 400;
 }
+
 @media screen and (max-width: 1250px) {
     .banner-text {
         width: 40%;
