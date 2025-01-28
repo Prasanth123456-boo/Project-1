@@ -706,12 +706,16 @@ header {
         height: 100vh;
         background: white;
         z-index: 99;
-        display: none !important;
-        transition: 1s ease;
+        opacity: 0; /* Use opacity for animation */
+        visibility: hidden; /* Hide the element */
+        transform: translateX(100%); /* Off-screen initially */
+        transition: transform 0.5s ease, opacity 0.5s ease;
     }
-
+    
     .open .nav-bar {
-        display: block;
+        opacity: 1; /* Fully visible */
+        visibility: visible; /* Ensure it's interactable */
+        transform: translateX(0); /* Slide in from the right */
     }
 
     .menu span:nth-child(2) {
